@@ -1,0 +1,225 @@
+/**************************
+         BODY
+***************************/
+
+*{
+    font-family: 'Red Hat Display', sans-serif;
+    margin: 0;
+}
+
+.img-1{
+    width: 100%;
+    position: fixed;
+    z-index: 2;
+}
+
+.img-2{
+    width: 100%;
+    transform: rotate(180deg);
+    position: fixed;
+    z-index: 1;
+    margin-top: 180px;
+    opacity: .5;
+    height: 100%;
+}
+
+/**************************
+         CONTAIN
+***************************/
+
+.contain{
+    display: flex;
+    position: relative;
+    width: 500px;
+    height: 700px;
+    margin: auto;
+    top: 40px;
+    border-radius: 20px;
+    background-color: #fff;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    z-index: 3;
+}
+
+/**************************
+        HEADER CARD
+***************************/
+
+.header{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    
+}
+
+.img-header{
+    width: 100%;
+    position: absolute;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+/**************************
+        BODY CARD
+***************************/
+.body{
+    position: absolute;
+    flex-direction: row;
+    align-self: center;
+    width: 100%;
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+}
+.title-1{
+    margin-top: -18px;
+    position: relative;
+
+}
+
+.info, .price, .button-2{
+    color: hsl(224, 23%, 55%);
+    
+}
+
+.info{
+    margin-top: 12px;
+}
+
+/**************************
+        CONTAIN 2
+***************************/
+
+.contain-2{
+    position: absolute;
+    width: 80%;
+    display: inline;
+    float: left;
+    left: 20px;
+    margin-top: 15px;
+}
+
+.img-music{
+    float: left;
+    margin-left: 95px;
+    margin-top: 20px;
+}
+
+.title-2{
+   margin-right: 110px;
+   margin-top: 15px;
+}
+
+.price{
+    display: inline;
+    position: absolute;
+    left: 166px;
+    bottom: -2px;
+}
+
+.change{
+    bottom: 10px;
+    float: right;
+    position: absolute;
+    left: 350px;
+
+}
+
+.change:hover{
+    
+    text-decoration: none;
+}
+
+/**************************
+        FOOTER CARD
+***************************/
+.footer{
+    position: absolute;
+    justify-content: center;
+    align-self: flex-end;
+    width: 100%;
+    left: 40px;
+}
+
+.button-1{
+    display: inline-block;
+    background-color: hsl(245, 75%, 52%);
+    text-decoration: none;
+    padding: 20px;
+    border-radius: 15px;
+    margin: 5px;
+    width: 80%;
+    border-style: none;
+    color: #fff;
+    font-weight: bolder;
+    font-size: 16px;
+    cursor: pointer;
+
+}
+
+.button-2{
+    display: block;
+    background-color: hsl(225, 100%, 94%);
+    text-decoration: none;
+    border-radius: 15px;
+    margin: 5px;
+    padding: 20px;
+    border-style: none;
+    width: 80%;
+    font-weight: bolder;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.button-1:hover{
+    background-color: hsl(245, 51%, 63%);
+
+}
+
+.button-2:hover{
+    color: #000;
+}
+
+/**************************
+        ATTRIBUTION
+***************************/
+
+.attribution{
+    font-size: 11px; 
+    text-align: center; 
+    position: absolute;
+    bottom: 0px;
+    left: 35rem;
+}
+.attribution .link{
+    color: hsl(228, 45%, 44%); 
+}
+
+.github{
+    width: 15px;
+    height: 15px;
+    padding: 2px;
+    margin: auto;
+}
+
+/**************************
+    RESPONSIVE DESING
+***************************/
+
+@media (min-width:1600px) {
+
+    .attribution{
+        left: 41rem;
+    }
+}
+
+@media (min-width:600px and max-width:1280px){
+
+    .attribution{
+        left: 30rem;
+    }
+}
+
+
+
