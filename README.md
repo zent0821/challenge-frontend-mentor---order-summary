@@ -1,5 +1,3 @@
-# challenge-frontend-mentor-order-summary
-
 Challenge Frontend Mentor | Order Summary
 
 HTML, CSS and Flexbox Solution
